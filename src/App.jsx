@@ -1,9 +1,10 @@
 import "./App.css";
+import QRCode from "./Components/QRcode";
 
 function App() {
   return (
-    <div className="text-3xl underline h-screen flex justify-center items-center">
-      This is a clean React TailwindCSS Template
+    <div className="flex justify-center">
+      <QRCode />
     </div>
   );
 }
